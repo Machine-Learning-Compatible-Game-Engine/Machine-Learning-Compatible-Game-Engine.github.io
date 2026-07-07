@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Machine Learning Compatible Game Engine (full-suite)",
+    "slug": "mlcge-full-suite",
+    "organization": "Machine-Learning-Compatible-Game-Engine",
+    "status": "Research / Thesis",
+    "summary": "Experimental graphics suite combining a C++/OpenGL rendering core, PyQt editor interface, and simulation loops prepared for future ML-agent bridges.",
+    "repo": "https://github.com/Machine-Learning-Compatible-Game-Engine/full-suite",
+    "live": "",
+    "tags": [
+      "C++",
+      "OpenGL",
+      "PyQt",
+      "Game Engine",
+      "Simulation"
+    ],
+    "related": [
+      "DigitalChalkLab",
+      "Hyperspace-Intelligence",
+      "UAIC-BSc-ComputerScience"
+    ]
+  },
+  {
+    "name": "supEngine",
+    "slug": "sup-engine",
+    "organization": "Machine-Learning-Compatible-Game-Engine",
+    "status": "Active / Research",
+    "summary": "Focused C++/FreeGLUT engine prototype supporting primitive drawing, simple component-based game objects, and input layers.",
+    "repo": "https://github.com/Machine-Learning-Compatible-Game-Engine/supEngine",
+    "live": "",
+    "tags": [
+      "C++",
+      "OpenGL",
+      "FreeGLUT",
+      "Simulation Core"
+    ],
+    "related": [
+      "DigitalChalkLab"
+    ]
+  },
+  {
+    "name": "abstract-template-for-opengl-render-engine",
+    "slug": "opengl-render-engine",
+    "organization": "Machine-Learning-Compatible-Game-Engine",
+    "status": "Research",
+    "summary": "Shader compilation wrappers, vertex array layouts, textures, and ImGui diagnostics diagnostics helper engine.",
+    "repo": "https://github.com/Machine-Learning-Compatible-Game-Engine/abstract-template-for-opengl-render-engine",
+    "live": "",
+    "tags": [
+      "C++",
+      "OpenGL",
+      "ImGui",
+      "Renderer"
+    ],
+    "related": [
+      "UAIC-BSc-ComputerScience"
+    ]
+  }
+]
