@@ -1,226 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Learning Compatible Game Engine Lab - GitHub Pages</title>
-    <meta name="description" content="Research lab for experimental graphics, simulation loops, editor tooling, and C++/OpenGL rendering engines moving toward ML-agent compatibility.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ead8ca">
+  <meta name="description" content="A C++ and OpenGL research lab for simulation, rendering, editor tooling, and game-engine interfaces designed with machine-learning agents in mind.">
+  <title>Machine Learning-Compatible Game Engine Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
-    <header class="navbar">
-        <div class="nav-container">
-            <a href="https://dragosandreibobu.github.io" class="nav-brand-back">
-                &larr; <span class="brand-text">Personal Hub</span>
-            </a>
-            <div class="nav-org-title">Machine Learning Compatible Game Engine Lab</div>
-            <nav class="nav-links">
-                <a href="#mission">About</a>
-                <a href="#connections">Network</a>
-                <a href="#projects">Work</a>
-                <a href="#docs">Notes</a>
-                <a href="https://github.com/Machine-Learning-Compatible-Game-Engine" target="_blank" class="nav-btn">GitHub</a>
-            </nav>
-        </div>
-    </header>
+<body style="--accent:#b57555;--accent-deep:#80503b;--accent-soft:#ead8ca">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="back-link" href="https://dragosandreibobu.github.io">← Personal portfolio</a>
+      <div class="site-name">MLCGE Lab</div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a><a href="#notes">Notes</a><a class="github-link" href="https://github.com/Machine-Learning-Compatible-Game-Engine" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
 
-    <main class="container">
-        <!-- Hero -->
-        <section id="mission" class="hero-section">
-            <div class="hero-glow"></div>
-            <span class="badge">Graphics research lab</span>
-            <h1 class="hero-title">Machine Learning Compatible Game Engine Lab</h1>
-            <p class="hero-bio">A C++/OpenGL playground for small engines, renderers, editor tools, and simulation.</p>
-        </section>
+  <main id="main" class="workspace">
+    <section class="hero" aria-labelledby="site-title">
+      <article class="hero-paper">
+        <p class="badge">Graphics and simulation research</p>
+        <h1 id="site-title">Machine Learning-Compatible <span>Game Engine</span></h1>
+        <p class="hero-summary">A C++ and OpenGL playground for reusable rendering, simulation loops, editor tooling, and environments that can eventually expose clean observation and action interfaces to machine-learning agents.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore projects</a><a class="button button-secondary" href="https://github.com/Machine-Learning-Compatible-Game-Engine/full-suite" target="_blank" rel="noreferrer">Open main project ↗</a></div>
+        <p class="hero-note">Simulation first. Agents as first-class users.</p>
+      </article>
+      <article class="hero-visual" aria-label="Visual summary">
+        <div class="visual-top"><span>Workspace overview</span><span aria-hidden="true">● ● ●</span></div>
+        <div class="visual-content"><div class="illustration cube-scene" aria-hidden="true"><div class="axis-lines"></div><div class="cube"><span class="front"></span><span class="back"></span><span class="right"></span><span class="left"></span><span class="top"></span><span class="bottom"></span></div></div></div>
+        <div class="visual-label"><strong>Render · simulate · expose</strong><span>A small engine architecture shaped around explicit state, actions, and reusable components.</span></div>
+      </article>
+    </section>
 
-        <!-- Connection -->
-        <section id="connections" class="info-card-section">
-            <div class="info-card">
-                <h3>Connected work</h3>
-                <p>Connects graphics experiments with teaching tools, AI exploration, and computer-science work.</p>
-                <div class="related-orgs">
-                    <strong>Related organizations:</strong>
-                    <div class="related-links">
-                        <a href="https://DigitalChalkLab.github.io" class="related-link">DigitalChalkLab</a> <a href="https://Hyperspace-Intelligence.github.io" class="related-link">Hyperspace-Intelligence</a> <a href="https://UAIC-BSc-ComputerScience.github.io" class="related-link">UAIC-BSc-ComputerScience</a> 
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="workbench" aria-label="Context and facts">
+      <article class="connection-card"><p class="badge">Connected work</p><h2 class="object-heading">Part of a wider desk.</h2><p>The lab combines Computer Science foundations, graphics experiments, software architecture, and machine-learning questions while remaining small enough to understand and rebuild.</p><div class="related-links"><a href="https://UAIC-BSc-ComputerScience.github.io" target="_blank" rel="noreferrer">Computer Science archive</a><a href="https://curricula-live.github.io" target="_blank" rel="noreferrer">curricula.live</a><a href="https://dragosandreibobu.github.io" target="_blank" rel="noreferrer">Personal portfolio</a></div></article>
+      <aside class="facts-card"><p class="badge">At a glance</p><h2 class="object-heading">Working notes</h2><dl class="facts"><div><dt>Core</dt><dd>C++ · OpenGL · rendering and simulation loops</dd></div><div><dt>Interface goal</dt><dd>Explicit observations · actions · resets · rewards</dd></div><div><dt>Origin</dt><dd>BSc thesis and independent engine experiments</dd></div><div><dt>Direction</dt><dd>Web-facing demos, reusable modules, and ML bridges</dd></div></dl></aside>
+    </section>
 
-        <!-- Projects grid -->
-        <section id="projects" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Projects</h2>
-                <p class="section-desc">Focused prototypes for rendering, interaction, and simulation.</p>
-                <div class="filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="active">Active</button>
-                    <button class="filter-btn" data-filter="research">Research</button>
-                    <button class="filter-btn" data-filter="teaching">Teaching</button>
-                    <button class="filter-btn" data-filter="archived">Archived</button>
-                </div>
-            </div>
-            <div class="projects-grid" id="projects-container">
-                <!-- Dynamically populated -->
-            </div>
-        </section>
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="section-heading"><p class="badge">Project notebook</p><h2 id="projects-heading">Selected work</h2><p>Repositories and experiments presented with clear status, scope, and technical context.</p><div class="filters" role="group" aria-label="Filter projects"><button class="filter-btn active" data-filter="all" aria-pressed="true">All</button><button class="filter-btn" data-filter="active" aria-pressed="false">Active</button><button class="filter-btn" data-filter="research" aria-pressed="false">Research</button><button class="filter-btn" data-filter="teaching" aria-pressed="false">Teaching</button><button class="filter-btn" data-filter="archive" aria-pressed="false">Archive</button></div></div>
+      <div class="projects-ledger"><div class="projects-grid" id="projects-container"></div></div>
+    </section>
 
-        <!-- Docs standard -->
-        <section id="docs" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Reference notes</h2>
-                <p class="section-desc">Short records for context, architecture, planning, and standards.</p>
-            </div>
-            <div class="docs-grid">
-                <a href="docs/overview.md" class="doc-card">
-                    <h4>Overview & Context</h4>
-                    <p>Comprehensive description of this workspace's mission and targets.</p>
-                </a>
-                <a href="docs/architecture.md" class="doc-card">
-                    <h4>Architecture & Topology</h4>
-                    <p>Internal software architecture and design pattern guidelines.</p>
-                </a>
-                <a href="docs/roadmap.md" class="doc-card">
-                    <h4>Ecosystem Roadmap</h4>
-                    <p>Milestones, feature integrations, and future project phases.</p>
-                </a>
-                <a href="docs/projects.md" class="doc-card">
-                    <h4>Project Catalog Specification</h4>
-                    <p>Detailed technical inventory of code repositories.</p>
-                </a>
-                <a href="docs/documentation-standard.md" class="doc-card">
-                    <h4>Engineering Standards</h4>
-                    <p>Source directory structures, naming schemes, and git flow rules.</p>
-                </a>
-            </div>
-        </section>
-    </main>
+    <section id="notes" class="section" aria-labelledby="notes-heading">
+      <div class="section-heading"><p class="badge">Reference notes</p><h2 id="notes-heading">Context before code.</h2><p>Short documentation records covering architecture, scope, planning, and engineering standards.</p></div>
+      <div class="docs-note"><div class="docs-grid"><a class="doc-card" href="docs/overview.md"><h3>Overview & context</h3><p>Mission, scope, and how this workspace fits the broader ecosystem.</p></a><a class="doc-card" href="docs/architecture.md"><h3>Architecture & topology</h3><p>Design boundaries, components, and technical decisions.</p></a><a class="doc-card" href="docs/roadmap.md"><h3>Roadmap</h3><p>Milestones, pending work, and future directions.</p></a><a class="doc-card" href="docs/projects.md"><h3>Project catalog</h3><p>A structured inventory of repositories and experiments.</p></a><a class="doc-card" href="docs/documentation-standard.md"><h3>Documentation standard</h3><p>Conventions for readable repositories, Git workflow, and technical notes.</p></a></div></div>
+    </section>
+  </main>
 
-    <footer class="footer">
-        <div class="footer-container">
-            <p>Part of the Dragoș-Andrei Bobu project ecosystem &bull; <a href="https://dragosandreibobu.github.io">https://dragosandreibobu.github.io</a></p>
-            <p><a href="https://github.com/Machine-Learning-Compatible-Game-Engine" target="_blank">GitHub Organization</a></p>
-        </div>
-    </footer>
+  <footer class="footer"><p>Part of the Dragoș-Andrei Bobu project ecosystem · 2026</p><p><a href="https://dragosandreibobu.github.io">Personal portfolio</a> · <a href="https://github.com/Machine-Learning-Compatible-Game-Engine" target="_blank" rel="noreferrer">GitHub organization</a></p></footer>
 
-    <script>
-        const projects = [
+  <script>
+    const projects = [
   {
-    "name": "Machine Learning Compatible Game Engine (full-suite)",
-    "slug": "mlcge-full-suite",
-    "organization": "Machine-Learning-Compatible-Game-Engine",
-    "status": "Research / Thesis",
-    "summary": "Experimental graphics suite combining a C++/OpenGL rendering core, PyQt editor interface, and simulation loops prepared for future ML-agent bridges.",
+    "name": "Machine Learning-Compatible Game Engine — full suite",
+    "status": "Research Thesis",
+    "summary": "A modular C++ engine combining rendering, simulation environments, editor tooling, and reusable interfaces intended to support future machine-learning agent integration.",
     "repo": "https://github.com/Machine-Learning-Compatible-Game-Engine/full-suite",
     "live": "",
     "tags": [
       "C++",
       "OpenGL",
       "PyQt",
-      "Game Engine",
-      "Simulation"
-    ],
-    "related": [
-      "DigitalChalkLab",
-      "Hyperspace-Intelligence",
-      "UAIC-BSc-ComputerScience"
+      "Simulation",
+      "Architecture"
     ]
   },
   {
     "name": "supEngine",
-    "slug": "sup-engine",
-    "organization": "Machine-Learning-Compatible-Game-Engine",
-    "status": "Active / Research",
-    "summary": "Focused C++/FreeGLUT engine prototype supporting primitive drawing, simple component-based game objects, and input layers.",
+    "status": "Active Research",
+    "summary": "A focused C++ and FreeGLUT prototype for primitive rendering, component-oriented game objects, input handling, and compact experimentation.",
     "repo": "https://github.com/Machine-Learning-Compatible-Game-Engine/supEngine",
     "live": "",
     "tags": [
       "C++",
-      "OpenGL",
       "FreeGLUT",
-      "Simulation Core"
-    ],
-    "related": [
-      "DigitalChalkLab"
+      "Components",
+      "Rendering"
     ]
   },
   {
-    "name": "abstract-template-for-opengl-render-engine",
-    "slug": "opengl-render-engine",
-    "organization": "Machine-Learning-Compatible-Game-Engine",
-    "status": "Research",
-    "summary": "Shader compilation wrappers, vertex array layouts, textures, and ImGui diagnostics diagnostics helper engine.",
+    "name": "Abstract OpenGL render-engine template",
+    "status": "Research Archive",
+    "summary": "Reusable wrappers for shaders, vertex arrays, textures, layouts, and ImGui diagnostics, kept as a practical reference for future renderer work.",
     "repo": "https://github.com/Machine-Learning-Compatible-Game-Engine/abstract-template-for-opengl-render-engine",
     "live": "",
     "tags": [
-      "C++",
       "OpenGL",
+      "Shaders",
       "ImGui",
       "Renderer"
-    ],
-    "related": [
-      "UAIC-BSc-ComputerScience"
     ]
   }
 ];
-        const container = document.getElementById('projects-container');
-        const filterBtns = document.querySelectorAll('.filter-btn');
-
-        function renderProjects(filter = 'all') {
-            container.innerHTML = '';
-            projects.forEach(p => {
-                const statusLower = p.status.toLowerCase();
-                let shouldShow = false;
-
-                if (filter === 'all') {
-                    shouldShow = true;
-                } else if (filter === 'active' && statusLower.includes('active')) {
-                    shouldShow = true;
-                } else if (filter === 'research' && statusLower.includes('research')) {
-                    shouldShow = true;
-                } else if (filter === 'teaching' && statusLower.includes('teaching')) {
-                    shouldShow = true;
-                } else if (filter === 'archived' && statusLower.includes('archived')) {
-                    shouldShow = true;
-                }
-
-                if (!shouldShow) return;
-
-                const card = document.createElement('div');
-                card.className = 'project-card fade-in';
-                
-                const badges = p.tags.map(t => `<span class="tag">${t}</span>`).join('');
-                const relatedLinks = p.related ? p.related.map(r => `<span class="related-org-tag">${r}</span>`).join(' ') : '';
-                
-                card.innerHTML = `
-                    <div class="project-card-header">
-                        <span class="project-status">${p.status}</span>
-                    </div>
-                    <h3>${p.name}</h3>
-                    <p>${p.summary}</p>
-                    <div class="project-tags">${badges}</div>
-                    ${relatedLinks ? `<div class="project-related-orgs"><strong>Related Orgs:</strong> ${relatedLinks}</div>` : ''}
-                    <div class="project-links">
-                        <a href="${p.repo}" target="_blank" class="link-btn">Code Repository</a>
-                        ${p.live ? `<a href="${p.live}" target="_blank" class="link-btn primary">Live Demo</a>` : ''}
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                renderProjects(btn.dataset.filter);
-            });
-        });
-
-        renderProjects();
-    </script>
+    const container = document.getElementById('projects-container');
+    const buttons = [...document.querySelectorAll('.filter-btn')];
+    const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    function renderProjects(filter = 'all') {
+      const visible = projects.filter(project => filter === 'all' || project.status.toLowerCase().includes(filter));
+      container.innerHTML = visible.map(project => `
+        <article class="project-card">
+          <span class="project-status">${escapeHtml(project.status)}</span>
+          <h3>${escapeHtml(project.name)}</h3>
+          <p>${escapeHtml(project.summary)}</p>
+          <div class="project-tags">${project.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
+          <div class="project-links"><a class="link-btn" href="${escapeHtml(project.repo)}" target="_blank" rel="noreferrer">Repository ↗</a>${project.live ? `<a class="link-btn primary" href="${escapeHtml(project.live)}" target="_blank" rel="noreferrer">Live project ↗</a>` : ''}</div>
+        </article>`).join('');
+      if (!visible.length) container.innerHTML = '<article class="project-card"><span class="project-status">No entries</span><h3>No projects match this filter yet.</h3></article>';
+    }
+    buttons.forEach(button => button.addEventListener('click', () => { buttons.forEach(item => { item.classList.remove('active'); item.setAttribute('aria-pressed','false'); }); button.classList.add('active'); button.setAttribute('aria-pressed','true'); renderProjects(button.dataset.filter); }));
+    renderProjects();
+  </script>
 </body>
 </html>
